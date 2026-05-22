@@ -1,0 +1,100 @@
+/* General Page Style */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    background:#f5f7fb;
+    color:#333;
+}
+
+/* Header */
+header{
+    background: linear-gradient(135deg,#4f46e5,#6366f1);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    margin:0;
+    font-size:40px;
+}
+
+header p{
+    font-size:18px;
+    opacity:0.9;
+}
+
+/* Navigation Bar */
+nav{
+    background:white;
+    text-align:center;
+    padding:15px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+nav a{
+    color:#333;
+    margin:0 15px;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#4f46e5;
+}
+
+/* Sections */
+section{
+    max-width:900px;
+    margin:40px auto;
+    padding:30px;
+    background:white;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.05);
+}
+
+/* Section Titles */
+section h2{
+    margin-bottom:15px;
+    color:#4f46e5;
+}
+
+/* Skills List */
+ul{
+    list-style:none;
+    padding:0;
+}
+
+ul li{
+    background:#eef2ff;
+    display:inline-block;
+    padding:8px 14px;
+    margin:6px;
+    border-radius:6px;
+    font-size:14px;
+}
+
+/* Project Cards */
+.project{
+    background:#f9fafc;
+    padding:18px;
+    margin:15px 0;
+    border-radius:8px;
+    border-left:5px solid #4f46e5;
+    transition:0.3s;
+}
+
+.project:hover{
+    transform:translateY(-3px);
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:25px;
+    background:#111827;
+    color:white;
+    margin-top:40px;
+}
