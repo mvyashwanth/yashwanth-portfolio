@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://portfolio-phi-three-ym5pear1ti.vercel.app/sitemap.xml
